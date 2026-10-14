@@ -1,0 +1,12 @@
+# 批处理文件必须保持 CRLF 换行（Windows cmd 要求）
+*.bat text eol=crlf
+
+# 源码与文档使用 LF
+*.py text eol=lf
+*.md text eol=lf
+*.toml text eol=lf
+
+# 二进制不转换
+*.exe binary
+*.png binary
+*.ico binary

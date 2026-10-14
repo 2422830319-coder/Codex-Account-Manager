@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# PyInstaller 产物
+build/
+dist/
+*.spec
+
+# 本地敏感数据（绝不提交任何凭据文件）
+*.auth.json
+*.meta.json
+.codex-butler/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+*.log
